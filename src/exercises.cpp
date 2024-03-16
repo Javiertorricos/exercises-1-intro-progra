@@ -67,6 +67,7 @@ void exercise_5(char character) {
 
 void exercise_6(int number) {
   // TODO: YOUR CODE HERE
+
 }
 
 void exercise_7(double r) {
@@ -92,6 +93,14 @@ string exercise_9(string s1, string s2, string s3, string s4, string s5) {
 
 int exercise_10(int a, int b) {
   // TODO: YOUR CODE HERE
+  if (int a >=0 && int b >=0) 
+  {
+    cout << (a + b) * 2 << endl;
+  }
+  else if (int a <=0 && int b <=0) 
+  {
+    cout << (a + b) * 0 << endl;
+  }
 }
 
 string exercise_11(int number) {
