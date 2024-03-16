@@ -26,9 +26,7 @@ void exercise_2(double A, double B, double C) {
     cout << x2 << endl;
   } else if ( A == 0) {
     cout << -C/B << endl;
-  } else {
-    cout << endl;
-  }
+  } 
 }
 
 void exercise_3(int a, int b) {
