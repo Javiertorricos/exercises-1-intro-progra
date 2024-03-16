@@ -17,6 +17,18 @@ cout << s1;
 
 void exercise_2(double A, double B, double C) {
   // TODO: YOUR CODE HERE
+  double D = B * B - 4 * A * C;
+  if (D >= 0 && A != 0) {
+    double d_sqrt = sqrt(D);
+    double x1 = (-B +d_sqrt) / (2 * A);
+    double x2 = (-B -d_sqrt) / (2 * A);
+    cout << x1 << endl;
+    cout << x2 << endl;
+  } else if ( A == 0) {
+    cout << -C/B << endl;
+  } else {
+    cout << endl;
+  }
 }
 
 void exercise_3(int a, int b) {
