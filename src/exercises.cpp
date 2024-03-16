@@ -17,7 +17,7 @@ cout << s1;
 
 void exercise_2(double A, double B, double C) {
   // TODO: YOUR CODE HERE
-  dobule D = B * B - 4 * A * C;
+  double D = B * B - 4 * A * C;
   if (D > 0 && A != 0)
   {
     double d_sqrt = sqrt (D);
