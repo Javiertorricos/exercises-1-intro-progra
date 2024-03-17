@@ -174,7 +174,7 @@ string exercise_9(string s1, string s2, string s3, string s4, string s5) {
   char caracter5 = s5[0];
   cout << caracter1 << caracter2 << caracter3 << caracter4 << caracter5 << endl;
   if ( caracter1 == caracter5) {
-    return "Hemos encontrado algo";
+    return "Hemos encontrado algo!";
   }
   else {
     return "Aun sin suerte"; 
