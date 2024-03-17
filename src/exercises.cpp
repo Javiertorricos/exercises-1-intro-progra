@@ -77,6 +77,16 @@ void exercise_4(double n, double a, double b, double x, double y) {
 
 void exercise_5(char character) {
   // TODO: YOUR CODE HERE
+  int res = character;
+  if (res >= 97 && res < 123){
+    cout << "lower-case alphabet" << endl;
+  }
+  else if (res >= 65 && res < 91){
+    cout << "upper-case alphabet" << endl;
+  }
+  else{
+    cout << "not an alphabet" << endl;
+  }
 }
 
 void exercise_6(int number) {
