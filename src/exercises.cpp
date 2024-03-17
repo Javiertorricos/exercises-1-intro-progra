@@ -207,10 +207,12 @@ void exercise_12(string color1, int numb1,
                  string color3, int numb3,
                  string color4, int numb4) {
   // TODO: YOUR CODE HERE
+
 }
 
 string exercise_13(int age, int years_of_experience) {
   // TODO: YOUR CODE HERE
+
   return "";
 }
 
@@ -229,6 +231,10 @@ string exercise_14(int number_of_docs) {
 
 void exercise_15(int a, int b, int c) {
   // TODO: YOUR CODE HERE
+  cout << "Los valores son: a = " << a << " b = " << b << " y c = " << c << endl;
+  cout << "Permutamos: a => b, b => c, c => a" << endl;
+  cout << "Los valores despues de la permutacion son: a = " << c << " b = " << a << " c = " << b << endl;
+  
 }
 
 void exercise_16(int debut, int fin) {
