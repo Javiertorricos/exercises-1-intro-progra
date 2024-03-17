@@ -89,9 +89,9 @@ void exercise_5(char character) {
   }
 }
 
-void exercise_6(int number) {
+void exercise_6(int a) {
   // TODO: YOUR CODE HERE
-if (a == 1){
+if(a == 1){
   cout << "Monday" << endl;
 }
 else if(a == 2){
