@@ -186,13 +186,12 @@ int exercise_10(int a, int b) {
   if (a < 0 && b < 0) {
     return 0;
   }
+  else{
   int sum = a + b;
   int digit_count = to_string(sum).size();
 
         int result = sum * digit_count;
         return result;
-    } else {
-        return 0;
     }
   }
 
