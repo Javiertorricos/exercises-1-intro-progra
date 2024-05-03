@@ -187,9 +187,13 @@ int exercise_10(int a, int b) {
     return 0;
   }
   int sum = a + b;
-  int digit_count = (sum == 0)? 1:
-  (int)log10(abs(sum)) + 1;
-  return sum * digit_count;
+  int digit_count = to_string(sum).size();
+
+        int result = sum * digit_count;
+        return result;
+    } else {
+        return 0;
+    }
   }
 
 string exercise_11(int number) {
